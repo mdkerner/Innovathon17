@@ -1,15 +1,14 @@
 $(document).ready(function(){
 
-    $("#gaucho-guide-logo").attr("src", "crt_files/static/img/logo.png").attr("alt", "Site Logo");
 });
 
 function initMap() {
-  map = new google.maps.Map(document.getElementById('crt_map'), {
-    center: {lat: 34.4126452, lng: -119.8471294},
-    zoom: 16
-  });
+	
+  	map = new google.maps.Map(document.getElementById('gaucho-guide-map'), {
+	    center: {lat: 34.4126452, lng: -119.8471294},
+	    zoom: 16
+  	});
 
-  load_landmarks();
 }
 
 function load_landmarks(){
