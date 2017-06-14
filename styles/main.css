@@ -2,7 +2,7 @@ body{
 	background:#ffffff;
 }
 #gaucho-guide-header{;
-	height:120px;
+	height:150px;
 	margin:0px;
 	position:absolute;
 	padding:0px;
@@ -18,7 +18,7 @@ body{
 #gaucho-guide-map{
 	bottom:0px;
 	position:absolute;
-	top:120px;
+	top:150px;
 }
 #find-text{
 	width:50%;
