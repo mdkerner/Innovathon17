@@ -1,3 +1,26 @@
 body{
-	background:grey;
+	background:#ffffff;
+}
+#gaucho-guide-header{;
+	height:150px;
+	margin:0px;
+	position:absolute;
+	padding:0px;
+	top:0px;
+	width:100%;
+}
+#gaucho-guide-logo{
+	max-height:45px;
+	max-width:300px;
+	margin-right:100px;
+}
+
+#gaucho-guide-map{
+	bottom:0px;
+	position:absolute;
+	top:150px;
+}
+#find-text{
+	width:50%;
+	margin-left:50px;
 }

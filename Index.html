@@ -3,17 +3,37 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Innovathon 2017 "Atlas De-bugged" Keri, Steve-0, Venzi, and Micheel</title>
+        <title>Innovathon 2017 "Atlas De-bugged" Keri, Steve-0, Venzi, and Michael</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+		
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/bootstrap-theme.min.css">
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
-    	<!--Main Page Content -->
     	<div>
-    		<h1>Gaucho Guide</h1>
+    		
+		    <div id="gaucho-guide-header">
+    			<img id="gaucho-guide-logo" src="img/gauchoguide_logo.png"/>
+    			<div class="">    
+					<input id="find-text" type="text" class="input-lg" placeholder="What on campus do you want to find?" />
+					<button id="find-button" class="btn btn-primary btn-lg" onclick="GetDirections()">GO!</button>
+				</div>
+				<em>*requires location services enabled in your browser</em><br>
+    		</div>
+    		<div class="container-fluid">
+    			<!--Main Page Content -->
+    			<div class="row">
+    				<div id="gaucho-guide-map" class="col-xs-12 container-fluid">
+    				</div>
+    			</div>    		
+			</div>
+		
     	</div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    	<script src="scripts/bootstrap.min.js"></script>
+    	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzDoMfSR5Otfz5eulW6iiSYFBZWO57wYs&callback=initMap" async defer></script>
+    	<script src="scripts/campus_remote_tour.js"></script>
     </body>
 </html>
